@@ -37,7 +37,7 @@ void loop() {
       
       digitalWrite(LED_PIN_1, HIGH); // светва диода
       
-      digitalWrite(RELAY_PIN, LOW); // спуска релето и лампата светва (затваря се ключа на ел. схема)
+      digitalWrite(RELAY_PIN, LOW); // спуска релето и лампата светва (затваря се ключът на ел. схема)
       light = true;
       
       for (int i = 1; i <= lightTime; i++) {
